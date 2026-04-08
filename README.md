@@ -1,43 +1,76 @@
-# Interactive Wall Calendar Component
+# 📅 Interactive Wall Calendar Component
 
-🚀 Built as part of a Frontend Engineering Challenge focusing on UI/UX, state management, and responsive design.
+🚀 Built as part of a Frontend Engineering Challenge focused on UI/UX, responsive design, and state management.
 
-A polished, interactive, and responsive React component inspired by a physical wall calendar aesthetic. It features dynamic themes, date range selection, and an integrated notes system.
+A polished and interactive calendar component inspired by a physical wall calendar. The application allows users to select date ranges, add notes, and experience a smooth, responsive interface across devices.
 
-## 🚀 Features
+---
+
+## 🔗 Live Links
+
+- 🌐 Live Demo: https://interactive-calendar-component-ecru.vercel.app/  
+- 🎥 Video Demo: (Add your Loom/YouTube link here)  
+- 💻 Source Code: https://github.com/afifa17112005/interactive-calendar-component  
+
+---
+
+## ✨ Features
 
 - 📅 Day range selection (start & end date with visual highlight)  
 - 📝 Notes system with localStorage persistence  
-- 🎨 Dynamic themes (light/dark or seasonal)  
+- 🎨 Clean wall calendar UI with visual layout  
 - 📱 Fully responsive design (mobile + desktop)  
-- ✨ Smooth animations and modern UI  
+- ⚡ Smooth animations and interactions  
+
+---
 
 ## 🛠 Tech Stack
 
 - React / Vite  
 - JavaScript (ES6+)  
-- CSS (custom styling)  
+- CSS (Custom Styling)  
 - localStorage  
+
+---
 
 ## ▶️ How to Run Locally
 
 npm install  
 npm run dev  
 
-## 📷 Screenshots
+Then open: http://localhost:5173  
 
-(Add screenshots here)
+---
 
-## 🎥 Demo Video
+## 🎥 Video Demonstration
+
+The demo video shows:
+- Date range selection  
+- Notes creation and saving  
+- Page refresh (data persists)  
+- Mobile responsiveness  
 
 (Add your video link here)
 
+---
+
 ## 🌐 Live Demo
 
-(Add your Vercel link here)
+https://interactive-calendar-component-ecru.vercel.app/
 
-## 🧩 Architecture
+---
 
-- Modular components (CalendarGrid, DayCell, NotesPanel)
-- Optimized rendering using React hooks (useMemo, useCallback)
-- Clean separation of UI and logic
+## 🧩 Implementation Details
+
+- Modular component structure  
+- Optimized rendering using React hooks  
+- Clean UI and UX design  
+- Responsive layout using modern CSS  
+
+---
+
+## 📌 Notes
+
+This project is strictly frontend as per the challenge requirements. Data persistence is handled using localStorage.
+
+---
