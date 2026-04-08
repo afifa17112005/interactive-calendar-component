@@ -1,25 +1,43 @@
 # Interactive Wall Calendar Component
 
-A polished, highly interactive, and responsive React/Next.js component inspired by a physical wall calendar aesthetic. It features dynamic seasonal themes, an integrated memo system, a range selection functionality, and beautifully crafted SVGs.
+🚀 Built as part of a Frontend Engineering Challenge focusing on UI/UX, state management, and responsive design.
 
-## Features
+A polished, interactive, and responsive React component inspired by a physical wall calendar aesthetic. It features dynamic themes, date range selection, and an integrated notes system.
 
-- **Wall Calendar Aesthetic:** Clean design integrating a hero image section that perfectly offsets the calendar functionality, emulating a physical calendar layout.
-- **Dynamic Seasonal Backgrounds & SVGs:** The side panel changes background color and artistic geometric SVG representations for different months and seasons (e.g., snowflakes for Jan/Dec, sprouts for March, suns for Summer).
-- **Day Range Selector:** Enables picking a start date and an end date with a live preview while hovering.
-- **Integrated Notes System:** Allows adding notes specifically attached to the selected date range. Notes show up in an indicator on the specific days across the grid.
-- **Fully Responsive & Fluid UX:** Silky-smooth rendering with animated transitions when changing months, built with standard vanilla CSS rules stringed onto an intuitive layout that collapses gracefully on mobile.
+## 🚀 Features
 
-## How to run locally
+- 📅 Day range selection (start & end date with visual highlight)  
+- 📝 Notes system with localStorage persistence  
+- 🎨 Dynamic themes (light/dark or seasonal)  
+- 📱 Fully responsive design (mobile + desktop)  
+- ✨ Smooth animations and modern UI  
 
-1. Ensure you have Node.js installed.
-2. Navigate to this directory in your terminal: \`cd calendar\`
-3. Install dependencies: \`npm install\`
-4. Run the development server: \`npm run dev\`
-5. Open [http://localhost:5173](http://localhost:5173) in your browser.
+## 🛠 Tech Stack
 
-## Component Architecture
+- React / Vite  
+- JavaScript (ES6+)  
+- CSS (custom styling)  
+- localStorage  
 
-- **Self-contained Styling**: Uses stringed CSS injected locally so the component operates completely independent of any global styling engine.
-- **Performance optimizations**: Extensively leverages \`useMemo\` and \`useCallback\` hooks to recalculate grids, range sets, and events to avoid unnecessary re-renders. 
-- **Sub-Component Logic**: Uses independent \`DayCell\` sub-components to handle fast internal hover state and hover logic decoupled from the parent to maximize rendering performance.
+## ▶️ How to Run Locally
+
+npm install  
+npm run dev  
+
+## 📷 Screenshots
+
+(Add screenshots here)
+
+## 🎥 Demo Video
+
+(Add your video link here)
+
+## 🌐 Live Demo
+
+(Add your Vercel link here)
+
+## 🧩 Architecture
+
+- Modular components (CalendarGrid, DayCell, NotesPanel)
+- Optimized rendering using React hooks (useMemo, useCallback)
+- Clean separation of UI and logic
