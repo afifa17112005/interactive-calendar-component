@@ -293,7 +293,7 @@ export default function WallCalendar() {
           --wc-input-bg: white;
           --wc-ni-bg: white;
           font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-          max-width: 980px; margin: 0 auto;
+          max-width: 980px; width: 100%; margin: 0 auto; box-sizing: border-box;
           background: var(--wc-bg); border-radius: 20px; overflow: hidden;
           box-shadow: 0 16px 80px var(--wc-shadow), 0 2px 8px var(--wc-shadow);
           transition: background 0.4s cubic-bezier(0.19, 1, 0.22, 1), box-shadow 0.4s ease, color 0.4s ease;
@@ -362,12 +362,13 @@ export default function WallCalendar() {
         }
 
         .wc-bind{height:24px;background:var(--wc-bind);border-bottom:1px solid var(--wc-bind-border);
-                 display:flex;align-items:center;justify-content:center;gap:26px; transition: background 0.4s ease}
+                 display:flex;align-items:center;justify-content:space-evenly; overflow:hidden; transition: background 0.4s ease}
         .wc-hole{width:18px;height:18px;border-radius:50%;background:var(--wc-hole);
                  border:2px solid var(--wc-hole-border);box-shadow:inset 0 2px 4px rgba(0,0,0,.3)}
 
         .wc-body{display:grid;grid-template-columns:290px 1fr;min-height:570px}
         @media(max-width:680px){
+          .wc-hole{width: 12px; height: 12px; border-width: 1px;}
           .wc-body{grid-template-columns:1fr; min-height:auto}
           .wc-hero{min-height:200px!important;max-height:240px}
           .wc-navbtn{width:48px;height:48px;font-size:24px}
