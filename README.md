@@ -9,7 +9,7 @@ A polished and interactive calendar component inspired by a physical wall calend
 ## 🔗 Live Links
 
 - 🌐 Live Demo: https://interactive-calendar-component-ecru.vercel.app/  
-- 🎥 Video Demo: (Add your Loom/YouTube link here)  
+ 
 - 💻 Source Code: https://github.com/afifa17112005/interactive-calendar-component  
 
 ---
@@ -42,15 +42,7 @@ Then open: http://localhost:5173
 
 ---
 
-## 🎥 Video Demonstration
 
-The demo video shows:
-- Date range selection  
-- Notes creation and saving  
-- Page refresh (data persists)  
-- Mobile responsiveness  
-
-(Add your video link here)
 
 ---
 
